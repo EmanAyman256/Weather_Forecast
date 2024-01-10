@@ -1,0 +1,66 @@
+
+body{
+    color: #fff;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/—Pngtree—forecast\ a\ gloomy\ grey\ sky_13434916.jpg);
+    background-position: center;
+ 
+    background-size: cover;
+    height: 100vh;
+
+}
+.caption
+{
+    font-family: 'Dosis', sans-serif;
+}
+.form-control
+{
+    background-color: rgb(191, 214, 249);
+    border-radius: 17px;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-control::placeholder
+{
+    color: #000;
+}
+.form-control:focus
+ {
+    color:#000000b5; 
+    background-color: rgb(200, 219, 248) !important;
+    border: none !important;
+ }
+ .find-button
+ {
+    top: 5px;
+    bottom: 5px;
+    right: 10px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 15px;
+    padding: 0 40px;
+    background-color: rgb(36, 61, 99);
+ }
+ .datespan
+ {
+   float: right;
+   margin-right: 7px;
+ }
+ .item-current , .item-day3 ,.item-day2
+ {
+    background-color: rgb(40, 61, 92);
+    border-radius: 15px;
+    height: 350px;
+ }
+
+ .day-date
+ {
+    background-color: rgb(74, 109, 161);
+    border-radius: 3px;
+
+ }
+ .btn:hover
+ {
+    background-color: rgb(36, 61, 99);
+
+ }

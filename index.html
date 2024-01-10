@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+    <section id="Section-one">
+
+        <div class="container py-5 mt-5  ">
+            <div class="caption py-5">
+                <h1 class=" text-center text-white ">Discover Weather Forecast For Your City :</h1>
+            </div>
+            <div class="container">
+                <form class="form-input position-relative">
+                
+                    <input type="text" class=" form-control  rounded-pill m-auto shadow-none" id="cityInput" placeholder ="Enter Your City...">
+                    <button onclick="findCityForecast()" type="button" class="btn position-absolute find-button">Find</button>
+                </form>
+            </div>
+           
+            <div class="row mt-5 gx-3 gy-3" id="infoTemp">
+                
+            </div>
+
+    </div>
+
+    </section>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
